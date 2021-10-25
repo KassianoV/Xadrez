@@ -2,13 +2,13 @@
 ## Trabalho “Eu vencerei Beth Harmon”
 <p>A primeira parte do trabalho consiste em modelar (representar através de código de programação) um jogo de xadrez e indicar as possibilidades de movimentação de cada peça. O 
 Tabuleiro será representado por uma matriz 8x8 de números inteiros. Cada peça será representada pelo código abaixo: <p/>
-|   Peças   |   Branco   |   Preto   | <br/>
-|   Peão    |     1      |    -1     | <br/>
-|   Cavalo  |     2      |    -2     | <br/>
-|   Bispo   |     3      |    -3     | <br/>
-|   Torre   |     4      |    -4     | <br/>
-|   Rainha  |     5      |    -5     | _(também chamada de Dama)_ <br/> 
-|   Rei     |     6      |    -6     | <br/>
+|>>>Peças>>>|   Branco   |   Preto   | <br/>
+|>>>Peão>>>|     1      |    -1     | <br/>
+|>>>Cavalo>>>|     2      |    -2     | <br/>
+|>>>Bispo>>>|     3      |    -3     | <br/>
+|>>>Torre>>>|     4      |    -4     | <br/>
+|>>>Rainha>>>|     5      |    -5     | _(também chamada de Dama)_ <br/> 
+|>>>Rei>>>|     6      |    -6     | <br/>
 
 <p>O posicionamento inicial das peças é dado pela figura abaixo. Por causa dos índices da matriz na
 linguagem C, vamos considerar que a linha 0 é onde fica o Rei branco (linha 1 na figura abaixo) e a
