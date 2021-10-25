@@ -169,21 +169,21 @@ jogador ou pela IA, a função “SalvaJogada” deve ser chamada passando um po
 que acabou de ser feita, para que ela seja salva no arquivo.</p>
 
   <blockquote>
-  struct Peca{
-  &nbsp;int codigo;
-  &nbsp;int linha,coluna;
-  &nbsp;int ataques;
-  &nbsp;struct Peca *prox,*ant;
+  struct Peca{<br/>
+  &nbsp;int codigo;<br/>
+  &nbsp;int linha,coluna;<br/>
+  &nbsp;int ataques;<br/>
+  &nbsp;struct Peca *prox,*ant;<br/>
   };
   </blockquote>
   
   <blockquote>
-  struct Posicao{
-  &nbsp;int qtdBrancas;
-  &nbsp;struct Peca *brancas;
-  &nbsp;int qtdPretas;
-  &nbsp;struct Peca *pretas;
-  &nbsp;int jogVez;
-  &nbsp;struct Peca *tab[8][8];
+  struct Posicao{<br/>
+  &nbsp;int qtdBrancas;<br/>
+  &nbsp;struct Peca *brancas;<br/>
+  &nbsp;int qtdPretas;<br/>
+  &nbsp;struct Peca *pretas;<br/>
+  &nbsp;int jogVez;<br/>
+  &nbsp;struct Peca *tab[8][8];<br/>
 }
  </blockquote>
