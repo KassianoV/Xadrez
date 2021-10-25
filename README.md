@@ -2,13 +2,13 @@
 ## Trabalho “Eu vencerei Beth Harmon”
 <p>A primeira parte do trabalho consiste em modelar (representar através de código de programação) um jogo de xadrez e indicar as possibilidades de movimentação de cada peça. O 
 Tabuleiro será representado por uma matriz 8x8 de números inteiros. Cada peça será representada pelo código abaixo: <p/>
-| &nbsp; &nbsp; &nbsp; Peças &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Branco &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Preto &nbsp; &nbsp; &nbsp; | <br/>
-| &nbsp; &nbsp; &nbsp; Peão &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -1 &nbsp; &nbsp; &nbsp; | <br/>
-| &nbsp; &nbsp; &nbsp; Cavalo &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 2 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -2 &nbsp; &nbsp; &nbsp; | <br/>
-| &nbsp; &nbsp; &nbsp; Bispo &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 3 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -3 &nbsp; &nbsp; &nbsp; | <br/>
-| &nbsp; &nbsp; &nbsp; Torre &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 4 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -4 &nbsp; &nbsp; &nbsp; | <br/>
-| &nbsp; &nbsp; &nbsp; Rainha &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 5 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -5 &nbsp; &nbsp; &nbsp; | _ (também chamada de Dama) _ <br/> 
-| &nbsp; &nbsp; &nbsp; Rei &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 6 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -6 &nbsp; &nbsp; &nbsp; | <br/>
+| &nbsp; &nbsp; Peças &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Branco &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Preto &nbsp; &nbsp; &nbsp; | <br/>
+| &nbsp; &nbsp; Peão &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -1 &nbsp; &nbsp; &nbsp; | <br/>
+| &nbsp; &nbsp; Cavalo &nbsp; | &nbsp; &nbsp; &nbsp; 2 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -2 &nbsp; &nbsp; &nbsp; | <br/>
+| &nbsp; &nbsp; Bispo &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 3 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -3 &nbsp; &nbsp; &nbsp; | <br/>
+| &nbsp; &nbsp; Torre &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; 4 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -4 &nbsp; &nbsp; &nbsp; | <br/>
+| &nbsp; &nbsp; Rainha &nbsp; | &nbsp; &nbsp; &nbsp; 5 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -5 &nbsp; &nbsp; &nbsp; | _ (também chamada de Dama) _ <br/> 
+| &nbsp; &nbsp; Rei &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; 6 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; -6 &nbsp; &nbsp; &nbsp; | <br/>
 
 <p>O posicionamento inicial das peças é dado pela figura abaixo. Por causa dos índices da matriz na
 linguagem C, vamos considerar que a linha 0 é onde fica o Rei branco (linha 1 na figura abaixo) e a
