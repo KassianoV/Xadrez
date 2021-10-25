@@ -2,7 +2,7 @@
 ## Trabalho “Eu vencerei Beth Harmon”
 <p>A primeira parte do trabalho consiste em modelar (representar através de código de programação) um jogo de xadrez e indicar as possibilidades de movimentação de cada peça. O 
 Tabuleiro será representado por uma matriz 8x8 de números inteiros. Cada peça será representada pelo código abaixo: <p/>
-|>>>Peças>>>|   Branco   |   Preto   | <br/>
+|> > >Peças>>>|   Branco   |   Preto   | <br/>
 |>>>Peão>>>|     1      |    -1     | <br/>
 |>>>Cavalo>>>|     2      |    -2     | <br/>
 |>>>Bispo>>>|     3      |    -3     | <br/>
